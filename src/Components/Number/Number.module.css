@@ -1,0 +1,25 @@
+.NumberTile {
+  background-color: #3074d9;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 1px solid #999;
+}
+
+.NumberTile h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.NumberTile:hover {
+  background-color: #11438c;
+  cursor: pointer;
+}
+
+.NumberTile:hover h3 {
+  color: white;
+}

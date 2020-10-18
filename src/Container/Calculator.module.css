@@ -1,0 +1,21 @@
+.Calculator {
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0.2rem;
+  outline: 1rem solid #175fdb;
+  outline-offset: 1rem;
+}
+
+.heading {
+  color: rgb(10, 125, 179);
+  margin: 3rem auto;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.heading:hover {
+  transform: scale(1.2) skewX(-5deg);
+}

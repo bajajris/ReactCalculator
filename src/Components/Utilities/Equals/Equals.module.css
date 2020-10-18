@@ -1,0 +1,23 @@
+.EqualsTile {
+  background-color: #db445f;
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+  border: 1px solid #999;
+  width: 100%;
+  position: relative;
+}
+
+.EqualsTile h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.EqualsTile:hover {
+  background-color: #db1c4a;
+  cursor: pointer;
+  color: white;
+}

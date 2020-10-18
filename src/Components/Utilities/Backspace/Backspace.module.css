@@ -1,0 +1,22 @@
+.BackspaceTile {
+  background-color: #db445f;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border: 1px solid #999;
+}
+
+.BackspaceTile h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.BackspaceTile:hover {
+  background-color: #db1c4a;
+  cursor: pointer;
+  color: white;
+}
