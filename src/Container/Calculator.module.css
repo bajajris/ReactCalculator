@@ -12,10 +12,11 @@
 .heading {
   color: rgb(10, 125, 179);
   margin: 3rem auto;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
+  width: 60%;
 }
 
 .heading:hover {
-  transform: scale(1.2) skewX(-5deg);
+  transform: scale(1.1) skewX(-5deg);
 }
